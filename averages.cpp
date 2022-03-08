@@ -164,13 +164,13 @@ void printMenu()
 {
 	cout<<"\nMENU\n";
 	cout<<"Choose average to compute:\n";
-	cout<<"Arythmetic average: 1\n";
-	cout<<"Geometric average: 2\n";
-	cout<<"Harmonic average: 3\n";
-	cout<<"Square average: 4\n";
-	cout<<"Power average: 5\n";
-	cout<<"Weighted average: 6\n";
-	cout<<"To stop the program, enter 0\n";
+	cout<<"1 - Arythmetic average\n";
+	cout<<"2 - Geometric average\n";
+	cout<<"3 - Harmonic average\n";
+	cout<<"4 - Square average\n";
+	cout<<"5 - Power average\n";
+	cout<<"6 - Weighted average\n";
+	cout<<"0 - To stop the program\n";
 	cout<<"Enter your choice: ";
 	cin>>choice;
 }
