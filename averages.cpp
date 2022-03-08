@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <iomanip>
 using namespace std;
-int choice, i, numberOfElements, keepArithmetizing;
+unsigned short int choice, i, numberOfElements, keepArithmetizing;
 float product, power, weightProduct, currentProduct, result, currentWeight, currentNumber, kFactor;
 
 void arithmeticAverage()
