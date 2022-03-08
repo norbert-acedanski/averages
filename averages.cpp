@@ -9,7 +9,7 @@ float product, power, weightProduct, currentProduct, result, currentWeight, curr
 
 void arithmeticAverage()
 {
-	cout<<"\nARYTHMETIC AVERAGE\n";
+	cout<<"1 - ARYTHMETIC AVERAGE\n";
 	cout<<"Arythmetic average form:\n";
 	cout<<"(a1+a2+a3+...+an)\n";
 	cout<<"-----------------\n";
@@ -30,7 +30,7 @@ void arithmeticAverage()
 
 void geometricAverage()
 {
-	cout<<"\nGEOMETRIC AVERAGE\n";
+	cout<<"2 - GEOMETRIC AVERAGE\n";
 	cout<<"Geometric average form:\n";
 	cout<<"    ________________\n";
 	cout<<"n  /\n";
@@ -57,7 +57,7 @@ void geometricAverage()
 
 void harmonicAverage()
 {
-	cout<<"\nHARMONIC AVERAGE\n";
+	cout<<"3 - HARMONIC AVERAGE\n";
 	cout<<"Harmonic average form:\n";
 	cout<<"       n\n";
 	cout<<"---------------\n";
@@ -85,7 +85,7 @@ void harmonicAverage()
 
 void squareAverage()
 {
-	cout<<"\nSQUARE AVERAGE\n";
+	cout<<"4 - SQUARE AVERAGE\n";
 	cout<<"Square average form:\n";
 	cout<<"      ____________________\n";
 	cout<<"     /  2    2          2\n";
@@ -109,7 +109,7 @@ void squareAverage()
 
 void powerAverage()
 {
-	cout<<"\nPOWER AVERAGE\n";
+	cout<<"5 - POWER AVERAGE\n";
 	cout<<"Power average form:\n";
 	cout<<"       ____________________\n";
 	cout<<"      /  k    k          k\n";
@@ -137,7 +137,7 @@ void powerAverage()
 
 void weightedAverage()
 {
-	cout<<"\nWEIGHTED AVERAGE\n";
+	cout<<"6 - WEIGHTED AVERAGE\n";
 	cout<<"Weighted average form:\n";
 	cout<<"a1*w1+a2*w2+a3*w3+...+an*wn\n";
 	cout<<"---------------------------\n";
@@ -162,7 +162,8 @@ void weightedAverage()
 
 void printMenu()
 {
-	cout<<"\nMENU\n";
+	system("cls");
+	cout<<"MENU\n";
 	cout<<"Choose average to compute:\n";
 	cout<<"1 - Arythmetic average\n";
 	cout<<"2 - Geometric average\n";
@@ -173,6 +174,7 @@ void printMenu()
 	cout<<"0 - To stop the program\n";
 	cout<<"Enter your choice: ";
 	cin>>choice;
+	system("cls");
 }
 
 int main()
