@@ -160,7 +160,7 @@ void weightedAverage()
 	cout<<"Weighted average of " <<numberOfElements<< " given elements equals " <<result<<endl;
 }
 
-void printMenu()
+void printAveragesMenu()
 {
 	system("cls");
 	cout<<"MENU\n";
@@ -183,7 +183,7 @@ int main()
 	cout<<"A program that calculates averages\n";
 	while(keepAveraging!=0)
 	{
-		printMenu();
+		printAveragesMenu();
 		switch(choice)
 		{
 			case 1:
