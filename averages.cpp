@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <iomanip>
 using namespace std;
-unsigned short int choice, i, numberOfElements, keepAveraging;
+unsigned short int choice, i, numberOfElements, keepAveraging=1;
 float product, power, weightProduct, currentProduct, result, currentWeight, currentNumber, kFactor;
 
 void arithmeticAverage()
@@ -181,7 +181,6 @@ int main()
 {
 	cout<<setprecision(100000);
 	cout<<"A program that calculates averages\n";
-	keepAveraging=1;
 	while(keepAveraging!=0)
 	{
 		printMenu();
