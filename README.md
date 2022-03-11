@@ -1,4 +1,4 @@
-# gcd
+# averages
 
 # About The Project
 Very old program that calculates averages.
